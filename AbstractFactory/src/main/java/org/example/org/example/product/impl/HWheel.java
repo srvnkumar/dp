@@ -1,6 +1,8 @@
-package org.example.org.example.practical;
+package org.example.org.example.product.impl;
 
-public class HWheel implements Wheel{
+import org.example.org.example.product.Wheel;
+
+public class HWheel implements Wheel {
 
     public HWheel(){
         System.out.println("HWheel");

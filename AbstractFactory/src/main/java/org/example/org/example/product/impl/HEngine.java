@@ -1,7 +1,9 @@
-package org.example.org.example.practical;
+package org.example.org.example.product.impl;
 
 
-public class HEngine implements Engine{
+import org.example.org.example.product.Engine;
+
+public class HEngine implements Engine {
 
     public HEngine(){
         System.out.println("HEngine");

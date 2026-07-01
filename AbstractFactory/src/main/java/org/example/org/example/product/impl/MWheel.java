@@ -1,6 +1,8 @@
-package org.example.org.example.practical;
+package org.example.org.example.product.impl;
 
-public class MWheel implements Wheel{
+import org.example.org.example.product.Wheel;
+
+public class MWheel implements Wheel {
 
 
     public MWheel(){
