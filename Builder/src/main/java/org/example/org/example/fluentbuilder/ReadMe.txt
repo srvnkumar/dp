@@ -1,5 +1,5 @@
 Pattern1 1:
-Builder Pattern :
+Builder Pattern(Immutable Class with Builder) :
 - A class has many fields
 - Some fields are optional
 - you want immutability of the object
