@@ -1,4 +1,4 @@
-package org.example.org.example.fluentbuilder;
+package org.example.fluentbuilder;
 
 public class Car {
     //Required fields
