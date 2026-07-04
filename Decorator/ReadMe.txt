@@ -1,0 +1,3 @@
+Decorator Design pattern is a structural design pattern that allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class. The decorator pattern is typically used to extend the functionalities of classes in a flexible and reusable way.
+- To avoid large inheritance hierarchies, the decorator pattern allows you to create a set of decorator classes that are used to wrap concrete components. This provides a flexible alternative to subclassing for extending functionality.
+- To combine behaviors, the decorator pattern allows you to create a chain of decorators that can be applied to a component. Each decorator can add its own behavior before or after delegating to the wrapped component.
