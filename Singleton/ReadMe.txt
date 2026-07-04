@@ -1,0 +1,1 @@
+Ensure single instance of a class is created and provide a global point of access to it. The Singleton pattern restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system.
