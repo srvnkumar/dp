@@ -1,0 +1,2 @@
+When the system needs a new object, it copies the prototype rather than creating a new instance from scratch. This approach is particularly useful when the cost of creating a new object is high, or when the system needs to create many similar objects. By using a prototype, the system can quickly and efficiently generate new objects with the same properties and behaviors as the original prototype.
+- useful when creating objects that are expensive to create or require complex initialization
