@@ -4,6 +4,12 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        extracted();
+
+
+    }
+
+    private static void extracted() {
         TextEditor editor = new TextEditor();
         EditorHistory history = new EditorHistory();
 
@@ -23,7 +29,5 @@ public class Main {
 
         editor.restore(history.undo());
         System.out.println(editor.getContent());
-
-
     }
 }
